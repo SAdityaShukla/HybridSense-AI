@@ -7,7 +7,7 @@ from ui.summarizer_page import show_summarizer_page
 
 st.set_page_config(page_title="HybridSense AI", page_icon="🤖", layout="centered")
 st.title("HybridSense AI")
-st.caption("A Hybrid Agent & RAG-Powered Intelligent Assistant")
+st.subheader("A Hybrid Agent & RAG-Powered Intelligent Assistant")
 st.divider()
 st.info(
     "🚀 **HybridSense AI** intelligently combines **RAG**, **tool-using agents**, "
