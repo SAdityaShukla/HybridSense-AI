@@ -5,8 +5,14 @@ from ui.search_page import show_search_page
 from ui.rag_page import show_rag_page
 from ui.summarizer_page import show_summarizer_page
 
-st.set_page_config(page_title="Multi-Task AI Helper", page_icon="🤖", layout="centered")
-st.title("HybridSense AI – A Hybrid Agent & RAG-Powered Intelligent Assistant")
+st.set_page_config(page_title="HybridSense AI", page_icon="🤖", layout="centered")
+st.title("HybridSense AI")
+st.caption("A Hybrid Agent & RAG-Powered Intelligent Assistant")
+st.divider()
+st.info(
+    "🚀 **HybridSense AI** intelligently combines **RAG**, **tool-using agents**, "
+    "**web intelligence**, and **website & YouTube video summarization** "
+    "to deliver accurate, context-aware responses.")
 
 groq_api_key = st.sidebar.text_input(
     "Groq API Key",
