@@ -22,7 +22,7 @@ Built with **LangChain**, **Groq** (ultra-fast inference), **ChromaDB**, and **S
 
 ### Project Structure
 
-multi_task_ai_helper/
+HybridSense-AI/
 ├── app.py                          # Main Streamlit entry point
 ├── config/
 │   ├── llm.py                      # Groq LLM configuration
