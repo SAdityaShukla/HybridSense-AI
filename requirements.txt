@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-groq
+langchain-huggingface
+langchain-chroma
+langchain-community
+chromadb
+pypdf
+youtube-transcript-api
+unstructured
+python-dotenv
+validators
