@@ -21,20 +21,21 @@ Built with **LangChain**, **Groq** (ultra-fast inference), **ChromaDB**, and **S
 
 
 ### Project Structure
+
 multi_task_ai_helper/
 ├── app.py                          # Main Streamlit entry point
 ├── config/
 │   ├── llm.py                      # Groq LLM configuration
-│   └── embeddings.py               # HuggingFace embeddings
+│   └── embeddings.py               # HuggingFace embeddings setup
 ├── core/
-│   ├── search_agent.py             # ReAct agent with web tools
-│   ├── rag_pipeline.py             # PDF processing + RAG chain
-│   └── summarizer.py               # YouTube & web summarization logic
+│   ├── search_agent.py             # ReAct agent with web search tools
+│   ├── rag_pipeline.py             # PDF processing and RAG chain
+│   └── summarizer.py               # YouTube & website summarization logic
 ├── ui/
 │   ├── search_page.py              # Search engine interface
 │   ├── rag_page.py                 # PDF chatbot interface
 │   └── summarizer_page.py          # URL summarizer interface
 ├── utils/
-│   └── chat_history.py             # Session history management
-├── requirements.txt
-└── README.md
+│   └── chat_history.py             # Session-based chat history management
+├── requirements.txt                # Project dependencies
+└── README.md                       # Project documentation
